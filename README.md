@@ -1,3 +1,42 @@
+****Домашнее задание к занятию 4. «Оркестрация группой Docker-контейнеров на примере Docker Compose»****
+
+**Задача 1**
+
+Создайте собственный образ любой операционной системы (например, debian-11) с помощью Packer версии 1.5.0
+￼<img width="1678" alt="Pasted Graphic 19" src="https://github.com/Godjee1/devops-netology/assets/117306656/ab665849-c280-4f64-9a4b-30b9a7eea828">
+
+**Задача 2**
+
+2.2. Создайте вашу первую виртуальную машину в YandexCloud с помощью Terraform (вместо использования веб-интерфейса YandexCloud). Используйте Terraform-код в директории (src/terraform).  
+￼<img width="853" alt="Pasted Graphic 59" src="https://github.com/Godjee1/devops-netology/assets/117306656/77f4270e-db81-47bd-8a63-fb12085d0e83">
+<img width="958" alt="Pasted Graphic 60" src="https://github.com/Godjee1/devops-netology/assets/117306656/9b5c88ce-a70b-42e4-aa07-951fb48904d7">
+
+**Задача 3**
+
+С помощью ansible+docker-compose разверните на виртуальной машине из предыдущего задания систему мониторинга на основе Prometheus/Grafana . Используйте ansible код в директории (src/ansible)
+Для получения зачета вам необходимо предоставить вывод команды "docker ps" , все контейнеры, описанные в (docker-compose), должны быть в статусе "Up".  
+￼<img width="1680" alt="Pasted Graphic 56" src="https://github.com/Godjee1/devops-netology/assets/117306656/bb67461c-e65b-4179-9420-4ed0b0e44545">
+
+**Задача 4**
+
+Откройте web браузер, зайдите на страницу http://<внешний_ip_адрес_вашей_ВМ>:3000. Используйте для авторизации логин и пароль из (.env-file). Изучите доступный интерфейс, найдите в интерфейсе автоматически созданные docker-compose панели с графиками(dashboards). Подождите 5-10 минут, чтобы система мониторинга успела накопить данные.  
+￼<img width="1680" alt="Pasted Graphic 57" src="https://github.com/Godjee1/devops-netology/assets/117306656/e9183539-3990-46b3-814e-2efccbe5c526">
+<img width="1680" alt="Pasted Graphic 58" src="https://github.com/Godjee1/devops-netology/assets/117306656/a9772852-fc99-4a85-9cf6-da0c4374d6c5">
+
+￼
+
+
+
+
+
+
+
+
+
+
+
+
+
 ****Домашнее задание к занятию 3. «Введение. Экосистема. Архитектура. Жизненный цикл Docker-контейнера»****
 
 Задача 1
